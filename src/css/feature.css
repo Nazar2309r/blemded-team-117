@@ -1,0 +1,89 @@
+/*# region feature*/
+.feature-title{
+    max-width: 331px;
+ font-size: 32px;
+text-align: center;
+margin: 0 auto 50px;
+}
+
+.feature-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin-bottom: 32px;
+    justify-content: center;
+}
+.feature-item{
+    width:100%;
+  max-width: 340px;
+  text-align: center; 
+
+}
+.feature-icon-wrapper{
+    border-radius: 19px;
+width: 50px;
+height: 50px;
+display:inline-flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 24px;
+}
+
+.feature-icon{
+    fill: #fff;
+}
+.feature-item:nth-child(4n-3) .feature-icon-wrapper{    /*nth надається  сусіднім елементам тобто li  а не span*/
+background-color: #02897a;
+}
+.feature-item:nth-child(4n-2) .feature-icon-wrapper{    /*nth надається  сусіднім елементам тобто li  а не span*/
+    background-color: #4D8DFF;
+    }
+.feature-item:nth-child(4n-1) .feature-icon-wrapper{    /*nth надається  сусіднім елементам тобто li  а не span*/
+        background-color: #740A76;
+        }
+
+.feature-item:nth-child(4n-0) .feature-icon-wrapper{    /*nth надається  сусіднім елементам тобто li  а не span*/
+            background-color: #F03E3D;
+            }
+            
+ .feature-subtitle{
+
+    font-weight: 600;
+    font-size: 22px;
+margin-bottom: 8px;
+            }
+.feature-link{
+display: block;
+padding: 14px 33px;
+}
+ .feature-text{
+    
+    line-height: 162%;
+    
+            }
+  .feature-btn-wrapper{
+display: flex;
+justify-content: center;
+            }
+            @media screen and (min-width:1150px){
+                .feature-title{
+                    max-width: 535px;
+                }
+                .feature-list{
+                    gap: 30px;
+                    margin-bottom: 50px;
+                }
+                .feature-item{
+                    width: calc(100%-90px) / 4;/*90px= 3 відступа по 3 колони */
+                text-align: left;
+                }
+                .feature-icon-wrapper{
+                    width: 54px;
+                    height: 54px;
+                    margin-bottom: 26px;
+                }
+                .feature-subtitle{
+                    margin-bottom: 13px;
+                }
+            }
+/*# end region feature*/
