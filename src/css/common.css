@@ -12,27 +12,24 @@ margin: -1px;
 
 }
 
+h3{
+    font-weight: 600;
+font-size: 16px;
 
-.logo{
-    display: flex;
-  gap: 16px; /*щоб був відступ від логотипа і до слова*/
-  align-items: center;/*щоб слово було по центруі*/
-font-weight: 700;
-font-size: 30px;
-line-height: 93%;
-color: #173a56;
 }
-.button{
-    min-width: 110px;
-    padding: 14px 42px;
-    border-radius: 4px;
+h2{
     font-weight: 700;
-    line-height: 1.5;
-    color: #fff;
-    background-color: #02897a;
-    transition: background-colo 250ms ease-in-out;
-   
+    font-size: 32px;
+  
 }
-.section{
-    padding: 50px 0;
+h4{
+    font-weight: 600;
+font-size: 16px;
+line-height: 162%;
+
 }
+ p{
+    font-weight: 400;
+font-size: 16px;
+line-height: 162%;
+ }
