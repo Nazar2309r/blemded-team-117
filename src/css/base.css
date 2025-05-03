@@ -4,3 +4,48 @@ body{
   color: #22343D;
   background-color: #fff;
 }
+
+.logo{
+  display: flex;
+gap: 16px; 
+align-items: center;
+font-weight: 700;
+font-size: 30px;
+line-height: 93%;
+color: #173a56;
+}
+.info {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 35px; 
+}
+
+
+
+@media screen and (min-width: 1150px) {
+  .info  {
+      display: flex;
+      flex-direction: row;
+  align-items: center;
+  gap: 84px;
+  }
+.picture{
+  width: 540px;
+      height: 500px;
+}
+}
+.button{
+  min-width: 110px;
+  padding: 14px 42px;
+  border-radius: 4px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #fff;
+  background-color: #02897a;
+  transition: background-colo 250ms ease-in-out;
+ 
+}
+.section{
+  padding: 50px 0;
+}

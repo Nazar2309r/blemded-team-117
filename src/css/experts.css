@@ -1,0 +1,68 @@
+.list-experts{
+    display: flex;
+    flex-direction: column;
+   
+}  
+ 
+.proposition{
+    display: flex;
+    align-items: center;
+    gap: 19px;
+    margin-bottom: 25px;
+}
+.sub-text{
+    margin-bottom: 40px;
+}
+  
+.title-experts, .sub-text{
+   text-align: center;
+}
+.experts-btn-wrapper{
+    display: flex;
+justify-content: center;
+margin-top: 50px;
+}
+
+.photo{
+    width: 90px;
+    height: 90px;
+}
+.text-experts {
+  text-align: center; 
+box-shadow: 0 2px 8px 0 rgba(86, 117, 146, 0.1);
+   padding: 0 20px;
+   border-radius: 20px;
+    width: 236px;
+    height: 64px;
+    align-items: center;
+display: flex;
+    
+  }
+  .marketing{
+    display: flex;
+ flex-direction: column-reverse;
+ 
+  }
+@media screen and (min-width:1150px){
+    .list-experts{
+      flex-direction: row;
+        margin-top: 40px;
+        justify-content: space-between;
+    } 
+    .photo{
+        width: 98px;
+        height: 98px;
+    }
+    .text-experts {
+        fill: #fff;
+        box-shadow: 2px 2px 10px 0 rgba(23, 58, 86, 0.15);
+        border-radius: 20px;
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        width: 281px;
+        height: 50px;
+        text-align: center; 
+      }
+     
+}

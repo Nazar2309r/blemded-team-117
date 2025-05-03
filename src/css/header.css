@@ -1,0 +1,83 @@
+/*# region  header*/
+
+.header-nav,.header-container{
+    display: flex;
+}
+.header-container{
+    gap: 73px;
+}
+.header-logo{
+    padding: 22px o;
+}
+.header-nav{
+    flex-grow: 1;/* щоб був гучний відступ буде заповнятись на всю ширину*/
+    justify-content: space-between;
+}
+
+.nav-link{
+ line-height: 175%;
+ display: block;
+ padding: 26px 0;
+
+
+}
+
+.auth-list{
+    display: flex;
+    align-items: center;
+    gap: 21px;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.nav-link.current{
+    font-weight: 600;
+}
+.auth-link{
+    display: block;
+    min-width: 105px;
+    border: 1px solid #bcd0e5;
+border-radius: 4px;
+  font-weight: 600;
+font-size: 16px;
+text-align: center;
+color: #173a56;
+padding: 8px 23px;
+}
+.auth-link-dark,
+.auth-link:hover,
+.auth-link:focus{
+    background-color: #02897a;
+    border-color: transparent;
+    color: #fff;
+}
+.auth-link-dark:hover,
+.auth-link-dark:focus{
+    background-color: transparent;
+    border-color:  #bcd0e5;
+    color:#173a56 ;
+}
+.btn-mob-icon{
+    stroke: #173A56;
+   
+}
+.btn-mob-menu{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+@media screen and (min-width: 768px) {
+    .btn-mob-menu {
+        display: none;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .nav-list, .auth-list {
+      display: none;
+    }
+  
+  }
+/*# end region header */
